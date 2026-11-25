@@ -1,0 +1,25 @@
+{
+  "name": "api-clinica-medica",
+  "version": "1.0.0",
+  "description": "API REST para gerenciamento de clínica médica com cadastro e relacionamento de médicos, pacientes e consultas.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "mysql2",
+    "clinica-medica",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  }
+}
